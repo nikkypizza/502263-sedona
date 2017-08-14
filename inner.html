@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sedona: Hotels</title>
+</head>
+
+<body>
+
+  <header class="main-header">
+    <nav class="head-navigation">
+      <a class="header-logo" href="index.html">
+        <img src="img/header-logo.svg" width="" height="" alt="Городок Седона">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="index.html">Информация</a></li>
+        <li><a href="media.html">Фото и видео</a></li>
+        <li><a href="map.html">Карта штата</a></li>
+        <li><a href="hotels.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filters">
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Инфраструктура</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="pool" checked> Бассейн
+            </li>
+            <li class="filter-option">
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="parking"> Парковка
+            </li>
+            <li class="filter-option">
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="wi-fi"> Wi-Fi
+            </li>
+          </ul>
+
+          <legend>Тип жилья</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="hotel" checked> Гостиница
+            </li>
+            <li class="filter-option">
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="motel" checked> Мотель
+            </li>
+            <li class="filter-option">
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="apartaments" checked> Апартаменты
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Стоимость в сутки (Р):</legend>
+          <!--Cкролл-бар под вопросом-->
+          <button type="submit" class="filter-button">Показать</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <!--
+найдено:3
+сортировка
+по цене
+по типу
+по рейтингу стрелочки справа
+/ не понимаю, во что обернуть и как оживить 'по цене\по типу\..'
+    -->
+
+  <ul class="hotels-list">
+    <li>
+      <img src="img/##" width="" height="" alt=""><br>
+      <table class="hotel">
+        <tr>
+          <td colspan="2">
+            <h2>Amara resort & spa</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>гостиница</td>
+          <td>от 3500 Р.</td>
+        </tr>
+        <tr>
+          <td><a class=details href="##">Подробнее</a></td>
+          <td><a class=book href="##">Забронировать</a></td>
+        </tr>
+      </table>
+      <img src="img/#" class="rating rating-stars" alt="">
+      <p class="rating">Рейтинг:8,5</p>
+    </li>
+
+
+    <li>
+      <img src="img/##" width="" height="" alt=""><br>
+      <table class="hotel">
+        <tr>
+          <td colspan="2">
+            <h2>Desert Quail Inn</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>мотель</td>
+          <td>от 2000 Р.</td>
+        </tr>
+        <tr>
+          <td><a class=details href="##">Подробнее</a></td>
+          <td><a class=book href="##">Забронировать</a></td>
+        </tr>
+      </table>
+      <img src="img/#" alt="" class="rating rating-stars">
+      <p class="rating">Рейтинг:8,9</p>
+    </li>
+
+    <li>
+      <img src="img/##" alt="" width="" height=""><br>
+      <table class="hotel">
+        <tr>
+          <td colspan="2">
+            <h2>Villas at poco diablo</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>Апартаменты</td>
+          <td>от 4000 Р.</td>
+        </tr>
+        <tr>
+          <td><a class=details href="##">Подробнее</a></td>
+          <td><a class=book href="##">Забронировать</a></td>
+        </tr>
+      </table>
+      <img src="img/#" alt="" class="rating rating-stars">
+      <p class="rating">Рейтинг:9,2</p>
+    </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p class="hashtag">#VISITSEDONA</p>
+
+    <div class="social-links">
+      <ul>
+        <li>
+          <a href=""><img src="img/twitter.jpg" alt="">Твиттер</a>
+        </li>
+        <li>
+          <a href=""><img src="img/facebook.jpg" alt="">Фейсбук</a>
+        </li>
+        <li>
+          <a href="###"><img src="img/youtube.jpg" alt="">Инстаграм</a>
+        </li>
+      </ul>
+    </div>
+
+    <p>
+      <a class="academy" href="https://htmlacademy.ru/"><img src="img/academy.jpg" alt="">HTML Academy</a>
+    </p>
+
+  </footer>
+</body>
+
+</html>
