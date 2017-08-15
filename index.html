@@ -10,9 +10,8 @@
 
   <header class="main-header">
     <nav class="head-navigation">
-      <!--Является ли логотип в хедере ссылкой? Если да, то куда ведет?-->
-      <a class="header-logo">
-        <img src="img/header-logo.svg" width="" height="" alt="Городок Седона">
+      <a class="header-logo" href="index.html">
+        <img src="http://placehold.it/150x100" alt="Городок Седона">
       </a>
       <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
@@ -23,49 +22,50 @@
     </nav>
   </header>
 
-  <img class="top-image" src="img/main-top-image.png" width="" height="" alt="Добро пожаловать в Седону!">
-
   <main>
-    <section>
+    <section class="headline">
+      <img class="top-image" src="http://placehold.it/150x100" alt="Добро пожаловать в Седону!">
       <h2>Седона-небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     </section>
 
-    <div class="first-div">
-      <h3>Настоящий городок</h3>
-      <p>- №1 -</p>
-      <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-      <img src="img/first-div.png" width="" height="">
+    <div class="main-advantage-1">
+      <div class="main-advantage-1-text">
+        <h3>Настоящий городок</h3>
+        <p>- №1 -</p>
+        <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+      </div>
+      <img src="http://placehold.it/150x100" alt="Городок">
     </div>
 
     <section class="features">
       <ul>
         <li>
-          <img src="img/house.png">
+          <img src="http://placehold.it/150x100" alt="Жилье">
           <h3>Жилье</h3>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </li>
         <li>
-          <img src="img/burger.png">
+          <img src="http://placehold.it/150x100" alt="Еда">
           <h3>Еда</h3>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </li>
         <li>
-          <img src="img/gift.png">
+          <img src="http://placehold.it/150x100" alt="Сувениры">
           <h3>Сувениры</h3>
           <p>Не только китайского, но и местного производства!</p>
         </li>
       </ul>
     </section>
 
-    <div class="second-div">
+    <div class="main-advantage-2">
+      <img src="http://placehold.it/150x100" alt="Мост дьявола">
       <h3>Там есть мост дьявола</h3>
       <p>№2</p>
       <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-      <img src="img/second-div.png" width="" height="">
     </div>
 
-    <section class="features">
+    <section class="services">
       <ul>
         <li>
           <h3>Небольшая площадь</h3>
@@ -93,72 +93,55 @@
 
     <div class="booking">
       <form class="filters" action="https://echo.htmlacademy.ru" method="get">
-        <fieldset>
-          <h2>Поиск гостиницы в Седоне</h2>
-          <p>
-            <h3>Дата заезда</h3>
-            <select class="filter-option">
-       <option value="23.04.2016">23 апреля 2016</option>
-       <option selected value="24.04.2016">24 апреля 2016</option>
-       <option value="25.04.2016">25 апреля 2016</option>
-  </select>
-          </p>
 
-          <p>
-            <h3>Дата выезда</h3>
-            <select class="filter-option">
-       <option value="03.07.2016">3 июля 2016</option>
-       <option selected value="04.07.2016">4 июля 2016</option>
-       <option value="05.07.2016">5 июля 2016</option>
-  </select>
-          </p>
+        <p><b>Поиск гостиницы в Седоне</b></p>
+        <p>
+          <label for="arrival-date">Дата заезда</label>
+          <input name="arrival-date" type="date" id="arrival-date" value="2016-04-24">
+        </p>
 
-          <p>
-            <h3>Взрослые</h3>
-            <select class="filter-option">
-       <option value="0">0</option>
-       <option value="1">1</option>
-       <option selected value="2">2</option>
-  </select>
-          </p>
+        <p>
+          <label for="depart-date">Дата выезда</label>
+          <input name="depart-date" type="date" id="depart-date" value="2016-07-04">
+        </p>
 
-          <p>
-            <h3>Дети</h3>
-            <select class="filter-option">
-       <option selected value="0">0</option>
-       <option value="1">1</option>
-       <option value="2">2</option>
-  </select>
-          </p>
-          <p>
-            <button type="submit" class="filter-button">Найти</button>
-            </p>
-      <!--  Не понимаю, почему кнопка сабмит не работает. Как ее привязать к опциям выбора?-->
-    </fieldset>
-  </form>
-</div>
-    <!--C боксом поиска гостиниц, со значком календаря и добавлением гугл карты пока тоже не до конца ясно-->
+        <p>
+          <label for="adults">Взрослые</label>
+          <input name="adults" type="number" id="adults" value="2">
+        </p>
 
+        <p>
+          <label for="kids">Дети</label>
+          <input name="kids" type="number" id="kids" value="0">
+        </p>
+        <p>
+          <button type="submit" class="filter-button">Найти</button>
+        </p>
+
+      </form>
+    </div>
+    <!-- Класс букинг обсудим        -->
   </main>
-  <footer>
+
+  <footer class="main-footer">
     <p class="hashtag">#VISITSEDONA</p>
 
     <div class="social-links">
       <ul>
         <li>
-          <a href=""><img src="img/twitter.jpg">Твиттер</a>
+          <a href=""><img src="http://placehold.it/150x100" alt="Twitter">Twitter</a>
         </li>
         <li>
-          <a href=""><img src="img/facebook.jpg">Фейсбук</a>
+          <a href=""><img src="http://placehold.it/150x100" alt="Facebook">Facebook</a>
         </li>
         <li>
-          <a href=""><img src="img/youtube.jpg">Инстаграм</a>
+          <a href=""><img src="http://placehold.it/150x100" alt="Instagram">Instagram</a>
         </li>
       </ul>
     </div>
 
-    <p>
-      <a class="academy" href="https://htmlacademy.ru/"><img src="img/academy.jpg">HTML Academy</a>
+    <p class="copyright">
+      <a class="academy" href="https://htmlacademy.ru/"><img src="http://placehold.it/150x100" alt="HTML Academy">HTML Academy</a>
     </p>
 
   </footer>
