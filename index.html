@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet">
   <title>Welcome to Sedona!</title>
 </head>
 
@@ -38,7 +39,7 @@
       <img src="http://placehold.it/150x100" alt="Городок">
     </div>
 
-    <section class="features">
+    <section class="services">
       <ul>
         <li>
           <img src="http://placehold.it/150x100" alt="Жилье">
@@ -65,7 +66,7 @@
       <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
     </div>
 
-    <section class="services">
+    <section class="features">
       <ul>
         <li>
           <h3>Небольшая площадь</h3>
@@ -86,33 +87,39 @@
     </section>
 
     <section class="feedback">
-
       <h2>Заинтересовались?</h2>
       <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <img src="http://placehold.it/150x100" alt="Google Map">
     </section>
 
     <div class="booking">
       <form class="filters" action="https://echo.htmlacademy.ru" method="get">
 
-        <p><b>Поиск гостиницы в Седоне</b></p>
+        <p>Поиск гостиницы в Седоне</p>
         <p>
           <label for="arrival-date">Дата заезда</label>
           <input name="arrival-date" type="date" id="arrival-date" value="2016-04-24">
+          <button type="button"><img src="http://placehold.it/150x100" alt="Calendar"></button>
         </p>
 
         <p>
           <label for="depart-date">Дата выезда</label>
           <input name="depart-date" type="date" id="depart-date" value="2016-07-04">
+          <button type="button"><img src="http://placehold.it/150x100" alt="Calendar"></button>
         </p>
 
         <p>
+          <button type="button"><img src="http://placehold.it/150x100" alt="-"></button>
           <label for="adults">Взрослые</label>
           <input name="adults" type="number" id="adults" value="2">
+          <button type="button"><img src="http://placehold.it/150x100" alt="+"></button>
         </p>
 
         <p>
+          <button type="button"><img src="http://placehold.it/150x100" alt="-"></button>
           <label for="kids">Дети</label>
           <input name="kids" type="number" id="kids" value="0">
+          <button type="button"><img src="http://placehold.it/150x100" alt="+"></button>
         </p>
         <p>
           <button type="submit" class="filter-button">Найти</button>
@@ -120,7 +127,6 @@
 
       </form>
     </div>
-    <!-- Класс букинг обсудим        -->
   </main>
 
   <footer class="main-footer">
@@ -143,7 +149,6 @@
     <p class="copyright">
       <a class="academy" href="https://htmlacademy.ru/"><img src="http://placehold.it/150x100" alt="HTML Academy">HTML Academy</a>
     </p>
-
   </footer>
 </body>
 
