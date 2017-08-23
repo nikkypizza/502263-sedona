@@ -1,24 +1,16 @@
-@font-face {
-  font-family: PT SansRegular;
-  src: url(ptsans.woff);
-  src: url(ptsans.woff2);
-}
-@font-face {
-  font-family: PT SansBold;
-  src: url(ptsansbold.woff);
-  src: url(ptsansbold.woff2);
-}
-
+html,
 body {
-  font-family: "PT SansRegular", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   line-height: 26pt;
   font-size: 14pt;
   color: inherit;
+  font-weight: normal;
 }
 
-h2, h3 {
-  font-family: "PT SansBold";
+h2,
+h3 {
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21pt;
-
+  font-weight: bold;
 }
