@@ -1,78 +1,78 @@
 body {
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
 }
 
 
 /*index.html*/
 
 .headline h2 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
 }
 
 .feedback h2 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
-  color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
 }
 
 .services h3 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 21px;
-  color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
 }
 
 .features h3 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 21px;
-  color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
 }
 
 .main-advantage-1 h3 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 21px;
-  color: #ffffff;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
 }
 
 .main-advantage-2 h3 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 21px;
-  color: #ffffff;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
 }
 
 
 /*inner.html*/
 
 .found {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
 }
 
 .hotels-list h2 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
 }
