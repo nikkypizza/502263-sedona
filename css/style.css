@@ -1,3 +1,7 @@
+html {
+    background-color: #f2f2f2;
+}
+
 body {
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
@@ -5,64 +9,314 @@ body {
     font-size: 14px;
     line-height: 21px;
     color: #000000;
+    background-color: #ffffff;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
 /*index.html*/
 
+.site-navigation li {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.site-navigation li:hover,
+.hotels-list h2:hover {
+    color: #92bdd8;
+}
+
+.site-navigation li:active,
+.hotels-list h2:active {
+    color: #c7c7c7;
+}
+
+.site-navigation a:focus {
+    outline-color: transparent;
+    color: #92bdd8;
+}
+
 .headline h2 {
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+}
+
+.feedback h2 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+}
+
+.feedback p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.services h3 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+
+.services p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    text-align: center;
+}
+
+.services img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    background-color: #eeeeee;
+}
+
+.features h3 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+
+.features p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    text-align: center;
+}
+
+.main-advantage-1 h3 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-advantage-1 {
+    background-color: #81b3d2;
+}
+
+.main-advantage-1 p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-advantage-2 h3 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-advantage-2 {
+    background-color: #81b3d2;
+}
+
+.main-advantage-2 p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.headline p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+    text-align: center;
+}
+
+.services li,
+.site-navigation li,
+.features li,
+.social-links li,
+.filter li,
+.sort-by li,
+.hotels-list li {
+    list-style: none;
+}
+
+.booking p:first-child {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #766357;
+}
+
+.booking p:first-child:hover,
+.book:hover {
+    background-color: #604e43;
+}
+
+.booking p:first-child:active,
+.book:active {
+    background-color: #503e33;
+    color: #857871;
+}
+
+.booking p {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.input-arrival-date,
+.input-depart-date {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.input-adults,
+.input-kids {
+    font: inherit;
+    text-align: center;
+    color: #000000;
+    text-transform: inherit;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+}
+
+.input-adults:hover,
+.input-kids:hover,
+.input-arrival-date:hover,
+.input-depart-date:hover {
+    background-color: #ebebeb;
+}
+
+.input-adults:focus,
+.input-kids:focus,
+.input-arrival-date:focus,
+.input-depart-date:focus {
+    background-color: #ffffff;
+    outline-color: #e5e5e5;
+}
+
+.booking button {
+    font: inherit;
+    text-align: center;
+    color: #a9a9a9;
+    text-transform: inherit;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+}
+
+.booking button:hover {
+    color: #000000;
+    background-color: #ebebeb;
+}
+
+.booking button:active {
+    color: #81b3d2;
+}
+
+.booking p:last-child button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    color: #ffffff;
+    background-color: #81b3d2;
+    border: none;
+}
+
+.social-links a:hover,
+.booking p:last-child button:hover,
+.details:hover {
+    background-color: #669ec0;
+}
+
+.booking p:last-child button:active,
+.social-links a:active,
+.details:active {
+    background-color: #5496bd;
+    color: #88b6d1;
+}
+
+.hashtag {
+    font-family: inherit;
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
     color: #000000;
 }
 
-.feedback h2 {
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 36px;
-    color: #000000;
-}
-
-.services h3 {
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 21px;
-    color: #000000;
-}
-
-.features h3 {
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 21px;
-    color: #000000;
-}
-
-.main-advantage-1 h3 {
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 21px;
+.social-links a {
+    background-color: #81b3d2;
     color: #ffffff;
 }
 
-.main-advantage-2 h3 {
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 21px;
-    color: #ffffff;
+.copyright a {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
 }
 
 
 /*inner.html*/
 
 .found {
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: inherit;
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
@@ -70,9 +324,122 @@ body {
 }
 
 .hotels-list h2 {
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: inherit;
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
     color: #000000;
+}
+
+.hotels-list p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filters-inner {
+    background-color: #596c81;
+    color: #ffffff;
+}
+
+.filters legend {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.filters li {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.show-button {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+}
+
+.show-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.title-sort-by,
+.sort-by li {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.sort-by li:first-child {
+    color: #81b3d2;
+}
+
+.sort-by li:not(:first-child) {
+    color: #81b3d2;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.sort-by li:not(:first-child) span {
+    color: #cacaca;
+}
+
+.sort-by li:not(:first-child) span:hover {
+    color: #81b3d2;
+}
+
+.sort-by li:not(:first-child) span:active {
+    color: #000000;
+}
+
+.sort-by li:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.book {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 21px;
+    color: #ffffff;
+    background-color: #766357;
+}
+
+.details {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 21px;
+    color: #ffffff;
+    background-color: #81b3d2;
+}
+
+.rating {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    background-color: #f2f2f2;
 }

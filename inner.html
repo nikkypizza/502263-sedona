@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <title>Hotels of Sedona</title>
 </head>
 
@@ -15,16 +17,16 @@
                 <img src="img/header-logo.png" width="138" height="70" alt="Городок Седона">
             </a>
             <ul class="site-navigation">
-                <li><a href="info.html" tabindex="1">Информация</a></li>
-                <li><a href="media.html" tabindex="2">Фото и видео</a></li>
-                <li><a href="map.html" tabindex="4">Карта штата</a></li>
-                <li><a href="inner.html" tabindex="5">Гостиницы</a></li>
+                <li><a href="#" tabindex="1">Информация</a></li>
+                <li><a href="#" tabindex="2">Фото и видео</a></li>
+                <li><a href="#" tabindex="4">Карта штата</a></li>
+                <li><a style="color: #766357 " href="inner.html" tabindex="-1">Гостиницы</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="filters">
+        <section class="filters-inner">
             <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                 <fieldset>
                     <legend>Инфраструктура</legend>
@@ -76,19 +78,19 @@
                         <div class="filter-bar-inactive"></div>
                     </div>
 
-                    <button type="button" class="filter-button">Показать</button>
+                    <button type="button" class="show-button">Показать</button>
                 </fieldset>
             </form>
         </section>
 
         <h2 class="found">Найдено:<span>3</span></h2>
-        <p>Сортировка</p>
+        <p class="title-sort-by">Сортировка:</p>
         <section>
 
-            <ul class="sort">
+            <ul class="sort-by">
                 <li class="sort-item sort-item-active"><a href="#">По цене</a></li>
-                <li class="sort-item"><a href="#">По типу</a></li>
-                <li class="sort-item"><a href="#">По рейтингу</a></li>
+                <li class="sort-item"><a href="#"><span>По типу</span></a></li>
+                <li class="sort-item"><a href="#"><span>По рейтингу</span></a></li>
             </ul>
 
             <div class="sort-rules">
@@ -118,7 +120,7 @@
 
                 <div class="hotel-rating">
                     <img src="img/rating-star.svg" width="18" height="17" class="rating-star" alt="Рейтинг">
-                    <p class="rating">Рейтинг:<span>8,5</span></p>
+                    <p class="rating">Рейтинг: <span>8,5</span></p>
                 </div>
             </li>
 
@@ -140,7 +142,7 @@
                 </div>
                 <div class="hotel-rating">
                     <img src="img/rating-star.svg" width="18" height="17" class="rating-star" alt="Рейтинг">
-                    <p class="rating">Рейтинг:<span>8,9</span></p>
+                    <p class="rating">Рейтинг: <span>8,9</span></p>
                 </div>
             </li>
 
@@ -161,7 +163,7 @@
                 </div>
                 <div class="hotel-rating">
                     <img src="img/rating-star.svg" width="18" height="17" class="rating-star" alt="Рейтинг">
-                    <p class="rating">Рейтинг:<span>9,2</span></p>
+                    <p class="rating">Рейтинг: <span>9,2</span></p>
                 </div>
             </li>
         </ul>
