@@ -34,14 +34,8 @@ a {
     color: #92bdd8;
 }
 
-.site-navigation li:active,
-.hotels-list h2:active {
+.site-navigation li:active{
     color: #c7c7c7;
-}
-
-.site-navigation a:focus {
-    outline-color: transparent;
-    color: #92bdd8;
 }
 
 .headline h2 {
