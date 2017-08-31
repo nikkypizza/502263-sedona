@@ -39,6 +39,9 @@ a {
     color: #c7c7c7;
 }
 
+.navigation-active {
+    color: #766357;
+}
 .headline h2 {
     font-family: inherit;
     font-weight: bold;
@@ -307,6 +310,9 @@ a {
     color: #000000;
 }
 
+.main-footer {
+    background-color: rgba(254, 254, 254, 0.9);
+}
 
 /*inner.html*/
 
@@ -326,12 +332,12 @@ a {
     color: #000000;
 }
 
-.hotels-list p {
+.hotel-card p {
     font-family: inherit;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    color: #000000;
+    color: #333333;
 }
 
 .filter fieldset {
@@ -343,7 +349,7 @@ a {
     color: #ffffff;
 }
 
-.filters legend {
+.filter legend {
     font-family: inherit;
     font-weight: bold;
     font-size: 16px;
@@ -351,7 +357,7 @@ a {
     color: #ffffff;
 }
 
-.filters li {
+.filter li {
     font-family: inherit;
     font-weight: normal;
     font-size: 14px;
