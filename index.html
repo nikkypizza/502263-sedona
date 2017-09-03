@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    
+
     <title>Welcome to Sedona!</title>
 </head>
 
@@ -29,7 +29,7 @@
     <main>
         <section class="headline">
             <img class="top-image" src="img/top-image.jpg" width="1200" height="780" alt="Добро пожаловать в Седону!">
-            <h2>Седона-небольшой городок в Аризоне, заслуживающий большего!</h2>
+            <h2>Седона-небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
             <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         </section>
 
@@ -64,9 +64,11 @@
 
         <div class="main-advantage-2">
             <img src="img/main-advantage-2.jpg" width="800" height="256" alt="Мост дьявола">
-            <h3>Там есть мост дьявола</h3>
-            <p>- №2 -</p>
-            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            <div class="main-advantage-2-text">
+                <h3>Там есть мост дьявола</h3>
+                <p>- №2 -</p>
+                <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
         </div>
 
         <section class="features">
@@ -90,11 +92,14 @@
         </section>
 
         <section class="feedback">
-            <h2>Заинтересовались?</h2>
-            <p>Укажите предпологаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <div class="feedback-text">
+                <h2>Заинтересовались?</h2>
+                <p>Укажите предпологаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            </div>
             <img src="img/google-map.jpg" width="1200" height="593" alt="Google Map">
         </section>
 
+        <!--
         <div class="booking">
             <form class="filters-index" action="https://echo.htmlacademy.ru" method="get">
 
@@ -102,7 +107,7 @@
                 <p>
                     <label for="arrival-date">Дата заезда:</label>
                     <input class="input-arrival-date" name="arrival-date" type="date" id="arrival-date" value="2016-04-24">
-                    <!--Стоит переделать в type:text? Я не нахожу способа изменить отображение месяца с цифрового на буквенное-->
+                    Стоит переделать в type:text? Я не нахожу способа изменить отображение месяца с цифрового на буквенное
 
                 </p>
 
@@ -131,30 +136,31 @@
             </form>
         </div>
     </main>
+-->
 
-    <footer class="main-footer">
-        <p class="hashtag">#VISITSEDONA</p>
+        <footer class="main-footer">
+            <p class="hashtag">#VISITSEDONA</p>
 
-        <div class="social-links">
-            <ul>
-                <li>
-                    <a href="#"><i class="icon-twitter"></i>Twitter</a>
-                </li>
-                <li>
-                    <a href="#"><i class="icon-facebook"></i>Facebook</a>
-                </li>
-                <li>
-                    <a href=""><i class="icon-youtube"></i>YouTube</a>
-                </li>
-            </ul>
-        </div>
+            <div class="social-links">
+                <ul>
+                    <li>
+                        <a href="#"><i class="icon-twitter"></i>Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-facebook"></i>Facebook</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="icon-youtube"></i>YouTube</a>
+                    </li>
+                </ul>
+            </div>
 
-        <p class="copyright">
+            <p class="copyright">
 
-            <a class="academy" href="https://htmlacademy.ru/intensive/htmlcss"> website by<img src="img/academy-logo.svg" width="115" height="41" alt="HTML Academy"></a>
-            <!--Логотип академии и другие .SVG нужно инлайнить в HTML, чтобы менять их цвет? -->
-        </p>
-    </footer>
+                <a class="academy" href="https://htmlacademy.ru/intensive/htmlcss"> website by<img src="img/academy-logo.svg" width="115" height="41" alt="HTML Academy"></a>
+                <!--Логотип академии и другие .SVG нужно инлайнить в HTML, чтобы менять их цвет? -->
+            </p>
+        </footer>
 </body>
 
 </html>
