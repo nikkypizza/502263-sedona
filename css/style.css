@@ -105,7 +105,7 @@ a {
     font-size: 14px;
     line-height: 26px;
     margin: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 51px;
     color: #333333;
     text-align: center;
 }
@@ -290,7 +290,7 @@ a {
 
 .feedback-text {
     padding-top: 25px;
-    padding-bottom: 120px;
+    padding-bottom: 33px;
 }
 
 .feedback h2 {
@@ -302,7 +302,7 @@ a {
     text-align: center;
 }
 
-.feedback p {
+.feedback p:not(.find-hotel) {
     font-family: inherit;
     font-weight: normal;
     font-size: 14px;
@@ -318,57 +318,71 @@ a {
 .booking {
     display: block;
     width: 568px;
-    min-height: 481px;
+    height: 395px;
     margin: 0 auto;
     position: absolute;
-    top: -679px;
+    top: -593px;
     right: 0;
     left: 0;
     background-color: #ffffff;
 }
 
-.filters-index {
-    display: flex;
-    flex-direction: column;
-}
 .booking-data {
-    padding: 50px 52px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 52px 52px 51px;
 }
-.find-hotel {
-    font-family: inherit;
-    font-weight: bold;
-    margin: 0 0;
-    padding: 30px 137px;
+
+.find-hotel-button {
+    border: none;
+    display: block;
     font-size: 21px;
     line-height: 26px;
-    text-align: center;
-    color: #ffffff;
+    font-family: inherit;
+    font-weight: bold;
     background-color: #766357;
+    color: #ffffff;
+    width: 568px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
-.find-hotel:hover {
+.find-hotel-button:hover {
     background-color: #604e43;
 }
 
-.find-hotel:active {
+.find-hotel-button:active {
     background-color: #503e33;
     color: #857871;
 }
 
 .booking p:not(.find-hotel) {
+    flex-grow: 1;
     font-family: inherit;
     font-weight: bold;
     display: flex;
-    flex-wrap: wrap;
     font-size: 14px;
     line-height: 26px;
-    padding: 5px;
+    padding: 0px 5px 3px 6px;
     color: #000000;
 }
 
+.booking-data p:nth-of-type(3) label {
+    margin-top: -10px;
+    padding-right: 41px;
+}
+
+.booking-data p:nth-of-type(4) label {
+    margin-top: -11px;
+    margin-left: 30px;
+    padding-right: 26px;
+}
+
 .booking label {
-    padding-right: 23px;
+    padding-right: 22px;
     align-self: center;
 }
 
@@ -397,12 +411,12 @@ a {
 .input-arrival-date {
     font-family: inherit;
     font-weight: bold;
+    width: 288px;
     font-size: 14px;
     line-height: 26px;
     text-align: left;
     border: none;
-    width: 72%;
-    padding: 5px;
+    padding: 1px 6px 0px 10px;
     text-transform: uppercase;
     background-color: #f2f2f2;
 }
@@ -419,12 +433,12 @@ a {
 .input-depart-date {
     font-family: inherit;
     font-weight: bold;
+    width: 286px;
     font-size: 14px;
     line-height: 26px;
-    width: 72%;
     text-align: left;
     border: none;
-    padding: 5px;
+    padding: 4px 6px 8px 10px;
     text-transform: uppercase;
     background-color: #f2f2f2;
 }
@@ -466,7 +480,46 @@ a {
     text-transform: inherit;
     background-color: #f2f2f2;
     border: none;
+    padding-bottom: 5px;
     font-size: 14px;
+}
+
+.calendar-button-1 {
+    position: relative;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.calendar-button-2 {
+    position: relative;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.arrival-calendar {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.depart-calendar {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.calendar path {
+    fill: #cacaca;
+}
+
+.calendar path:hover {
+    fill: #000000;
+}
+
+.calendar path:active {
+    fill: #81b3d2;
 }
 
 .input-kids:hover {
@@ -481,11 +534,12 @@ a {
 .booking p:last-child button {
     font-family: inherit;
     font-weight: bold;
-    height: 58px;
+    min-height: 58px;
     width: 100%;
     font-size: 21px;
     line-height: 26px;
     text-transform: uppercase;
+    margin-top: 20px;
     color: #000000;
     text-align: center;
     color: #ffffff;
@@ -519,13 +573,13 @@ a {
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
-    padding-bottom: 7px;
+    padding-bottom: 4px;
     padding-left: 133px;
     color: #000000;
 }
 
 .social-links {
-    margin: 0 12px 6px 0;
+    margin: 4px 13px 11px 0;
 }
 
 .social-links ul {
@@ -566,7 +620,7 @@ a {
     display: flex;
     align-items: center;
     margin: 0;
-    padding-right: 101px;
+    padding-right: 103px;
 }
 
 .copyright label {
@@ -639,8 +693,13 @@ a {
     list-style: none;
 }
 
-input[type="checkbox"] {
-    display: none;
+.filter legend {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 30px 0px 0px 60px;
+    line-height: 21px;
+    color: #ffffff;
 }
 
 .filter-input+label {
@@ -652,21 +711,20 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+input[type="checkbox"] {
+    display: none;
+}
+
+.filter-input:disabled {
+    background-color: #6a6a6a;
+}
+
 .filter-input:checked+label {
     background: url(../img/checkbox-on.svg) no-repeat;
     height: 27px;
     width: 100px;
     display: inline-block;
     padding: 0 0 0 40px;
-}
-
-.filter legend {
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 30px 0px 0px 60px;
-    line-height: 21px;
-    color: #ffffff;
 }
 
 .filter fieldset:nth-of-type(1) li {
@@ -750,10 +808,7 @@ input[type="checkbox"] {
 }
 
 .range-toggle:hover {
-        border: 9px solid #ffffff;
-}
-.range-toggle-min {
-    left: 0;
+    border: 9px solid #ffffff;
 }
 
 .range-toggle-max {
@@ -821,7 +876,7 @@ input[type="checkbox"] {
     align-items: center;
 }
 
-.sort-by li {
+.sort-item {
     font-family: inherit;
     font-weight: normal;
     font-size: 12px;
@@ -832,29 +887,33 @@ input[type="checkbox"] {
     color: #000000;
 }
 
-.sort-by li:first-child {
+.sort-item-active {
     color: #81b3d2;
+    text-decoration: none;
 }
 
-.sort-by li:not(:first-child) {
+.sort-item:not(.sort-item-active) {
     color: #81b3d2;
     text-decoration: underline;
     text-decoration-style: dotted;
 }
 
-.sort-by li:not(:first-child) span {
-    color: #cacaca;
+
+/* C  opacity не выходит. Прозрачность делает подчеркиввание так же прозрачным, что противоречит макету*/
+
+.sort-item span {
+    color: #b2b2b2;
 }
 
-.sort-by li:not(:first-child) span:hover {
+.sort-item:not(:first-child) span:hover {
     color: #81b3d2;
 }
 
-.sort-by li:not(:first-child) span:active {
+.sort-item:not(:first-child) span:active {
     color: #000000;
 }
 
-.sort-by li:active {
+.sort-item:active {
     color: #000000;
     text-decoration: none;
 }
@@ -869,15 +928,15 @@ input[type="checkbox"] {
     margin-left: 8px;
 }
 
-.sort-rules a path{
+.sort-rules a path {
     fill: #cacaca;
 }
 
-.sort-rules a:first-of-type path{
+.sort-rules a:first-of-type path {
     fill: #81b3d2;
 }
 
-.sort-rules a:hover path{
+.sort-rules a:hover path {
     fill: #231f20;
 }
 
@@ -892,6 +951,42 @@ input[type="checkbox"] {
     list-style: none;
 }
 
+.hotel-list-item {
+    background-color: #fefefe;
+    display: flex;
+    margin-top: -2px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.hotel-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 150px;
+    padding: 3px 0px 0px 73px;
+    width: 100%;
+}
+
+.hotel-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-left: 29px;
+    width: 350px;
+    margin-top: 27px;
+    height: 90px;
+}
+
+.hotels-list h2 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    padding-right: 115px;
+    margin: 0;
+    color: #000000;
+}
+
 .hotels-list h2:hover {
     color: #92bdd8;
 }
@@ -900,51 +995,41 @@ input[type="checkbox"] {
     color: #c7c7c7;
 }
 
-.hotel-list-item {
-    background-color: #fefefe;
-    display: flex;
-    margin-top: -2px;
-        border-top: 1px solid #e5e5e5;
-}
-
-.hotels-list h2 {
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 26px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    color: #000000;
-}
-
-.hotel-card {
-    display: flex;
-    min-height: 150px;
-    padding-left: 73px;
-    padding-top: 3px;
-    width: 100%;
-    align-items: center;
-}
-
-.hotel-list-item:first-of-type {
-    padding-top: 2px;
-}
-
-.hotel-list-item:nth-child(3) {
-    border-bottom: 1px solid #e5e5e5;
-}
-
 .hotel-card p {
     font-family: inherit;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    padding-left: 40px;
+    height: 20px;
+    margin: 0;
+    flex-grow: 1;
     color: #333333;
 }
 
+.hotel-list-item:nth-child(3) {
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -3px;
+}
+
+.type-price {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding-right: 115px;
+}
+
 .hotel-rating {
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 8px;
+    padding-right: 70px;
+}
+
+.rating-star {
+    align-self: flex-end;
+    padding-left: 3px;
+    padding-top: 4px;
 }
 
 .book {
@@ -954,8 +1039,24 @@ input[type="checkbox"] {
     line-height: 21px;
     color: #ffffff;
     background-color: #766357;
-    width: 142px;
+    min-width: 142px;
+    height: 27px;
     margin-left: 6px;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.details {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    background-color: #81b3d2;
+    min-width: 110px;
+    height: 27px;
+    margin: 0;
+    align-self: flex-end;
     text-align: center;
 }
 
@@ -966,17 +1067,6 @@ input[type="checkbox"] {
 .book:active {
     background-color: #503e33;
     color: #857871;
-}
-
-.details {
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
-    background-color: #81b3d2;
-    width: 110px;
-    text-align: center;
 }
 
 .details:hover {
@@ -995,7 +1085,9 @@ input[type="checkbox"] {
     line-height: 21px;
     color: #666666;
     background-color: #f2f2f2;
+    min-height: 27px;
     width: 110px;
+    align-self: center;
     text-align: center;
 }
 
