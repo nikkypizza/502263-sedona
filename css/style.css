@@ -47,7 +47,7 @@ a {
     line-height: 26px;
     width: 20%;
     text-align: center;
-    padding: 15px 0px;
+    padding: 15px;
     color: #000000;
 }
 
@@ -307,7 +307,6 @@ a {
 }
 
 .booking {
-    display: block;
     width: 568px;
     height: 395px;
     margin: 0 auto;
@@ -552,6 +551,12 @@ a {
     width: 1200px;
 }
 
+.google-map {
+    width: 1200px;
+    height: 593px;
+    background: #dae2c0 url(../img/google-map.jpg) no-repeat;
+}
+
 .hashtag {
     font-family: inherit;
     font-weight: bold;
@@ -650,9 +655,9 @@ a {
 .filter {
     background-color: #596c81;
     color: #ffffff;
-    background-image: url(../img/filter-background.jpg);
+    background: #5a5e61 url(../img/filter-background.jpg) no-repeat;
     background-position: 0px -60px;
-    height: 217px;
+    min-height: 217px;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -664,6 +669,7 @@ a {
 
 .filter ul {
     padding-left: 0px;
+    margin-bottom: 0;
 }
 
 .filter li {
@@ -687,10 +693,11 @@ a {
 }
 
 .filter-input+label {
-    background: url(../img/checkbox-off.svg) no-repeat;
+    background: transparent url(../img/checkbox-off.svg) no-repeat;
     height: 27px;
     width: 100px;
     display: inline-block;
+    vertical-align: top;
     padding-left: 40px;
     cursor: pointer;
 }
@@ -708,6 +715,7 @@ input[type="checkbox"] {
     height: 27px;
     width: 100px;
     display: inline-block;
+    vertical-align: top;
     padding: 0 0 0 40px;
 }
 
@@ -935,6 +943,7 @@ input[type="checkbox"] {
 .hotel-list-item {
     background-color: #fefefe;
     display: flex;
+    min-height: 150px;
     margin-top: -2px;
     border-top: 1px solid #e5e5e5;
 }
@@ -955,7 +964,7 @@ input[type="checkbox"] {
     margin-left: 29px;
     width: 350px;
     margin-top: 27px;
-    height: 90px;
+    min-height: 90px;
 }
 
 .hotels-list h2 {
