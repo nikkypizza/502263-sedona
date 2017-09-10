@@ -108,14 +108,14 @@
                         <div class="booking-data">
                             <p>
                                 <label for="arrival-date">Дата заезда:</label>
-                                <input class="input-arrival-date" name="arrival-date" type="text" id="arrival-date" value="24 апреля 2017">
+                                <input class="input-arrival-date" required name="arrival-date" type="text" id="arrival-date" value="24 апреля 2017">
                                 <button title="Календарь" type="button" class="calendar-button">
                                 <svg class="calendar arrival-calendar"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M908.3 101.9H775.6V40.6c0-16.9-13.7-30.6-30.6-30.6-16.9 0-30.6 13.7-30.6 30.6v61.3H530.6V40.6c0-16.9-13.7-30.6-30.6-30.6-16.9 0-30.6 13.7-30.6 30.6v61.3H285.6V40.6c0-16.9-13.7-30.6-30.6-30.6s-30.6 13.7-30.6 30.6v61.3H91.7c-45.1 0-81.7 36.5-81.7 81.6v724.8c0 45.1 36.6 81.7 81.7 81.7h816.7c45.1 0 81.7-36.6 81.7-81.7V183.5c-.1-45.1-36.7-81.6-81.8-81.6zm20.5 806.4c0 11.3-9.2 20.4-20.4 20.4H91.7c-11.3 0-20.4-9.2-20.4-20.4V183.5c0-11.2 9.2-20.4 20.4-20.4h132.7v61.3c0 16.9 13.7 30.6 30.6 30.6s30.6-13.7 30.6-30.6v-61.3h183.8v61.3c0 16.9 13.7 30.6 30.6 30.6 16.9 0 30.6-13.7 30.6-30.6v-61.3h183.8v61.3c0 16.9 13.7 30.6 30.6 30.6 16.9 0 30.6-13.7 30.6-30.6v-61.3h132.7c11.3 0 20.4 9.1 20.4 20.4v724.8zM224.4 469.4h122.5v-91.9H224.4v91.9zm0 153.1h122.5v-91.9H224.4v91.9zm0 153.1h122.5v-91.9H224.4v91.9zm214.4 0h122.5v-91.9H438.8v91.9zm0-153.1h122.5v-91.9H438.8v91.9zm0-153.1h122.5v-91.9H438.8v91.9zm214.3 306.2h122.5v-91.9H653.1v91.9zm0-153.1h122.5v-91.9H653.1v91.9zm0-153.1h122.5v-91.9H653.1v91.9z"/></svg></button>
                             </p>
 
                             <p>
                                 <label for="departure-date">Дата выезда:</label>
-                                <input class="input-departure-date" name="departure-date" type="text" id="departure-date" value="4 июля 2017">
+                                <input class="input-departure-date" required name="departure-date" type="text" id="departure-date" value="4 июля 2017">
                                 <button title="Календарь" type="button" class="calendar-button">
                                      <svg class="calendar departure-calendar"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M908.3 101.9H775.6V40.6c0-16.9-13.7-30.6-30.6-30.6-16.9 0-30.6 13.7-30.6 30.6v61.3H530.6V40.6c0-16.9-13.7-30.6-30.6-30.6-16.9 0-30.6 13.7-30.6 30.6v61.3H285.6V40.6c0-16.9-13.7-30.6-30.6-30.6s-30.6 13.7-30.6 30.6v61.3H91.7c-45.1 0-81.7 36.5-81.7 81.6v724.8c0 45.1 36.6 81.7 81.7 81.7h816.7c45.1 0 81.7-36.6 81.7-81.7V183.5c-.1-45.1-36.7-81.6-81.8-81.6zm20.5 806.4c0 11.3-9.2 20.4-20.4 20.4H91.7c-11.3 0-20.4-9.2-20.4-20.4V183.5c0-11.2 9.2-20.4 20.4-20.4h132.7v61.3c0 16.9 13.7 30.6 30.6 30.6s30.6-13.7 30.6-30.6v-61.3h183.8v61.3c0 16.9 13.7 30.6 30.6 30.6 16.9 0 30.6-13.7 30.6-30.6v-61.3h183.8v61.3c0 16.9 13.7 30.6 30.6 30.6 16.9 0 30.6-13.7 30.6-30.6v-61.3h132.7c11.3 0 20.4 9.1 20.4 20.4v724.8zM224.4 469.4h122.5v-91.9H224.4v91.9zm0 153.1h122.5v-91.9H224.4v91.9zm0 153.1h122.5v-91.9H224.4v91.9zm214.4 0h122.5v-91.9H438.8v91.9zm0-153.1h122.5v-91.9H438.8v91.9zm0-153.1h122.5v-91.9H438.8v91.9zm214.3 306.2h122.5v-91.9H653.1v91.9zm0-153.1h122.5v-91.9H653.1v91.9zm0-153.1h122.5v-91.9H653.1v91.9z"/></svg></button>
                             </p>
@@ -123,14 +123,14 @@
                             <p>
                                 <label for="adults">Взрослые:</label>
                                 <button title="Меньше" type="button">-</button>
-                                <input class="input-adults" name="adults" type="number" id="adults" value="2">
+                                <input required class="input-adults" name="adults" type="number" id="adults" value="2">
                                 <button title="Больше" type="button">+</button>
                             </p>
 
                             <p>
                                 <label for="kids">Дети:</label>
                                 <button title="Меньше" type="button">-</button>
-                                <input class="input-kids" name="kids" type="number" id="kids" value="0">
+                                <input required class="input-kids" name="kids" type="number" id="kids" value="0">
                                 <button title="Больше" type="button">+</button>
                             </p>
                             <p>
