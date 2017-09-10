@@ -4,5 +4,5 @@ var popup = document.querySelector(".booking");
 
 link = link.addEventListener("click", function (evt) {
     evt.preventDefault();
-    popup.classList.add("booking-show");
+    popup.classList.toggle("booking-show");
 });
