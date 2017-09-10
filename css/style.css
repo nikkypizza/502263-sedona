@@ -1,148 +1,161 @@
+body,
 html {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2
+}
+
+.find-hotel-button,
+body {
+    text-transform: uppercase
+}
+
+.sort-item-active,
+a {
+    text-decoration: none
 }
 
 body {
-    font-family: "PT Sans", "Arial", sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #000000;
-    background-color: #f2f2f2;
+    color: #000
+}
+
+.headline h2,
+.site-navigation li {
+    font-weight: 700;
+    text-align: center
+}
+
+.headline h2,
+.headline p,
+.site-navigation li {
+    font-family: inherit;
+    line-height: 26px
+}
+
+.headline,
+.site-navigation {
+    background-color: #fff
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+    color: inherit
 }
 
 .page {
     margin: 0 auto;
     width: 1200px;
-    box-shadow: 0 0 13px 3px #dbdbdb;
+    box-shadow: 0 0 13px 3px #dbdbdb
 }
-
-
-/*index.html*/
 
 .main-header {
     width: 1200px;
-    position: absolute;
+    position: absolute
 }
 
 .site-navigation {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding-left: 0px;
-    background-color: #ffffff;
+    padding-left: 0
 }
 
 .site-navigation li {
-    font-family: inherit;
-    font-weight: bold;
     list-style: none;
     font-size: 14px;
-    line-height: 26px;
     width: 20%;
-    text-align: center;
     padding: 15px;
-    color: #000000;
+    color: #000
 }
 
 .header-logo {
     position: absolute;
     width: 138px;
     right: 531px;
-    left: 531px;
+    left: 531px
+}
+
+.booking-relative,
+.calendar-button {
+    position: relative
 }
 
 .site-navigation li:nth-of-type(2) {
-    margin-right: 20%;
+    margin-right: 20%
 }
 
 .site-navigation li:hover {
-    color: #92bdd8;
+    color: #92bdd8
 }
 
 .site-navigation li:active {
-    color: #c7c7c7;
+    color: #c7c7c7
 }
 
 .navigation-active {
-    color: #766357;
-}
-
-.headline {
-    background-color: #ffffff;
+    color: #766357
 }
 
 .headline h2 {
-    font-family: inherit;
-    font-weight: bold;
     font-size: 21px;
-    margin: 0px auto;
-    line-height: 26px;
+    margin: 0 auto;
     padding-top: 51px;
     padding-bottom: 28px;
     width: 500px;
-    color: #000000;
-    text-align: center;
+    color: #000
 }
 
 .headline p {
-    font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 26px;
-    margin: 0px;
+    margin: 0;
     padding-bottom: 51px;
-    color: #333333;
+    color: #333;
+    text-align: center
+}
+
+.main-advantage-1 h3,
+.main-advantage-1 p {
+    color: #fff;
     text-align: center;
+    font-family: inherit;
+    line-height: 21px
 }
 
 .main-advantage-1 {
     background-color: #81b3d2;
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .main-advantage-1-text {
     width: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 
 .main-advantage-1 h3 {
-    font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 21px;
-    line-height: 21px;
     width: 150px;
-    margin: auto;
-    color: #ffffff;
-    text-align: center;
+    margin: auto
 }
 
 .main-advantage-1 p {
-    font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
-    text-align: center;
-    width: 300px;
+    width: 300px
 }
 
 .main-advantage-1 p:first-of-type {
     margin-top: 25px;
-    margin-bottom: 6px;
+    margin-bottom: 6px
 }
 
 .services {
-    background-color: #ffffff;
+    background-color: #fff
 }
 
 .services ul {
@@ -150,125 +163,123 @@ a {
     align-items: center;
     justify-content: space-around;
     min-height: 330px;
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 0;
+    margin: 0
 }
 
 .services li {
     list-style: none;
     align-self: baseline;
-    padding-top: 56px;
+    padding-top: 56px
 }
 
 .services img {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .services li:nth-of-type(2) img {
-    padding-right: 10px;
+    padding-right: 10px
 }
 
 .services h3 {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 21px;
     line-height: 21px;
     padding-top: 8px;
-    color: #000000;
-    text-align: center;
+    color: #000;
+    text-align: center
 }
 
 .services p {
     font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #333333;
+    color: #333;
     text-align: center;
     padding-top: 3px;
-    width: 290px;
+    width: 290px
+}
+
+.main-advantage-2 h3,
+.main-advantage-2 p {
+    color: #fff;
+    line-height: 21px;
+    font-family: inherit;
+    text-align: center
 }
 
 .main-advantage-2 {
     background-color: #81b3d2;
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .main-advantage-2-text {
     width: 400px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .main-advantage-2 h3 {
-    font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 21px;
-    line-height: 21px;
-    color: #ffffff;
-    margin: auto;
-    text-align: center;
+    margin: auto
 }
 
 .main-advantage-2 p {
-    font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
-    width: 310px;
-    color: #ffffff;
-    text-align: center;
+    width: 310px
 }
 
 .main-advantage-2 p:first-of-type {
     margin-top: 25px;
-    margin-bottom: 6px;
+    margin-bottom: 6px
 }
 
 .features ul {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    background-color: #eeeeee;
-    min-height: 256px;
+    background-color: #eee;
+    min-height: 256px
 }
 
 .features li {
     list-style: none;
     padding-top: 34px;
-    padding-right: 86px;
+    padding-right: 86px
 }
 
 .features li:nth-of-type(3) {
-    padding-right: 42px;
+    padding-right: 42px
 }
 
 .features h3 {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 21px;
     line-height: 21px;
-    color: #000000;
+    color: #000;
     padding-top: 13px;
     text-align: center;
     width: 150px;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto
 }
 
 .features p {
     font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #333333;
+    color: #333;
     padding-top: 9px;
     text-align: center;
-    width: 270px;
+    width: 270px
 }
 
 .feedback {
@@ -276,102 +287,105 @@ a {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #fff
+}
+
+.booking,
+.find-hotel-button {
+    display: block;
+    width: 568px;
+    margin: 0 auto
 }
 
 .feedback-text {
     padding-top: 25px;
-    padding-bottom: 33px;
+    padding-bottom: 33px
 }
 
 .feedback h2 {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    color: #000000;
-    text-align: center;
+    color: #000;
+    text-align: center
 }
 
 .feedback p:not(.find-hotel) {
     font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #333333;
-    text-align: center;
+    color: #333;
+    text-align: center
 }
 
-.booking-relative {
-    position: relative;
+.booking p,
+.find-hotel-button {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 26px
+}
+
+.find-hotel-button {
+    border: 0;
+    font-size: 21px;
+    background-color: #766357;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer
+}
+
+.find-hotel-button:hover {
+    background-color: #604e43
+}
+
+.find-hotel-button:active {
+    background-color: #503e33;
+    color: #857871
 }
 
 .booking {
-    width: 568px;
     height: 395px;
-    margin: 0 auto;
     position: absolute;
     top: -593px;
     right: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: #fff
+}
+
+.booking-show {
+    display: none
 }
 
 .booking-data {
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 52px 52px 51px;
-}
-
-.find-hotel-button {
-    border: none;
-    display: block;
-    font-size: 21px;
-    line-height: 26px;
-    font-family: inherit;
-    font-weight: bold;
-    background-color: #766357;
-    color: #ffffff;
-    width: 568px;
-    padding: 30px;
-    text-align: center;
-    margin: 0 auto;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.find-hotel-button:hover {
-    background-color: #604e43;
-}
-
-.find-hotel-button:active {
-    background-color: #503e33;
-    color: #857871;
+    padding: 40px 52px 52px 51px
 }
 
 .booking p {
-    flex-grow: 1;
-    font-family: inherit;
-    font-weight: bold;
     display: flex;
     font-size: 14px;
-    line-height: 26px;
-    padding: 0px 5px 3px 6px;
-    color: #000000;
+    padding: 0 5px 3px;
+    color: #000
 }
 
 .booking-data p:nth-of-type(3) label {
-    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-right: 40px
 }
 
 .booking-data p:nth-of-type(4) label {
-    margin-left: 30px;
+    margin-left: 32px;
     padding-right: 20px;
+    padding-bottom: 4px
 }
 
 .booking label {
     padding-right: 22px;
-    align-self: center;
+    align-self: center
 }
 
 .booking button {
@@ -380,166 +394,164 @@ a {
     color: #a9a9a9;
     text-transform: inherit;
     background-color: #f2f2f2;
-    border: none;
+    border: 0;
     width: 35px;
     min-height: 38px;
+    font-size: 25px;
+    cursor: pointer
+}
+
+.input-arrival-date,
+.input-departure-date {
+    font-weight: 700;
     font-size: 14px;
-    cursor: pointer;
+    line-height: 26px;
+    text-align: left;
+    border: 0;
+    text-transform: uppercase;
+    font-family: inherit
 }
 
 .booking button:hover {
-    color: #000000;
-    background-color: #ebebeb;
+    color: #000;
+    background-color: #ebebeb
 }
 
 .booking button:active {
-    color: #81b3d2;
+    color: #81b3d2
 }
 
 .input-arrival-date {
-    font-family: inherit;
-    font-weight: bold;
     width: 288px;
-    font-size: 14px;
-    line-height: 26px;
-    text-align: left;
-    border: none;
-    padding: 2px 6px 0px 10px;
-    text-transform: uppercase;
-    background-color: #f2f2f2;
+    padding: 2px 6px 0 12px;
+    background-color: #f2f2f2
 }
 
 .input-arrival-date:hover {
-    background-color: #ebebeb;
+    background-color: #ebebeb
 }
 
 .input-arrival-date:focus {
-    background-color: #ffffff;
-    outline-color: #e5e5e5;
+    background-color: #fff;
+    outline-color: #e5e5e5
 }
 
-.input-depart-date {
-    font-family: inherit;
-    font-weight: bold;
+.input-departure-date {
     width: 286px;
-    font-size: 14px;
-    line-height: 26px;
-    text-align: left;
-    border: none;
-    padding: 4px 6px 5px 10px;
-    text-transform: uppercase;
-    background-color: #f2f2f2;
+    margin-left: -4px;
+    padding: 4px 8px 5px 13px;
+    background-color: #f2f2f2
 }
 
-.input-depart-date:hover {
-    background-color: #ebebeb;
+.input-adults,
+.input-kids {
+    width: 44px;
+    color: #000;
+    text-transform: inherit;
+    padding-bottom: 5px;
+    border: 0;
+    text-align: center
 }
 
-.input-depart-date:focus {
-    background-color: #ffffff;
-    outline-color: #e5e5e5;
+.input-departure-date:hover {
+    background-color: #ebebeb
+}
+
+.input-departure-date:focus {
+    background-color: #fff;
+    outline-color: #e5e5e5
 }
 
 .input-adults {
     font: inherit;
-    text-align: center;
-    color: #000000;
-    text-transform: inherit;
     background-color: #f2f2f2;
-    border: none;
-    width: 44px;
-    font-size: 14px;
+    padding-left: 7px;
+    font-size: 14px
 }
 
 .input-adults:hover {
-    background-color: #ebebeb;
+    background-color: #ebebeb
 }
 
 .input-adults:focus {
-    background-color: #ffffff;
-    outline-color: #e5e5e5;
+    background-color: #fff;
+    outline-color: #e5e5e5
 }
 
 .input-kids {
-    width: 44px;
     font: inherit;
-    text-align: center;
-    color: #000000;
-    text-transform: inherit;
     background-color: #f2f2f2;
-    border: none;
-    padding-bottom: 5px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .calendar-button {
-    position: relative;
     padding: 10px 15px;
-    margin: 0;
+    margin: 0
 }
 
-.arrival-calendar {
+.arrival-calendar,
+.departure-calendar {
+    width: 21px;
+    height: 22px;
     position: absolute;
     top: 20%;
     left: 20%;
-    cursor: pointer;
-}
-
-.depart-calendar {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .calendar path {
-    fill: #cacaca;
+    fill: #cacaca
 }
 
 .calendar path:hover {
-    fill: #000000;
+    fill: #000
 }
 
 .calendar path:active {
-    fill: #81b3d2;
+    fill: #81b3d2
 }
 
 .input-kids:hover {
-    background-color: #ebebeb;
+    background-color: #ebebeb
 }
 
 .input-kids:focus {
-    background-color: #ffffff;
-    outline-color: #e5e5e5;
+    background-color: #fff;
+    outline-color: #e5e5e5
 }
 
 .booking-data .hotel-search {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     min-height: 58px;
-    width: 100%;
+    width: 457px;
     font-size: 21px;
     line-height: 26px;
     text-transform: uppercase;
     margin-top: 20px;
-    color: #000000;
-    text-align: center;
-    color: #ffffff;
-    background-color: #81b3d2;
+    color: #fff;
+    background-color: #81b3d2
 }
 
 .booking-data .hotel-search:hover {
     background-color: #669ec0;
-    color: #ffffff;
+    color: #fff
 }
 
 .booking-data .hotel-search:active {
     background-color: #5496bd;
-    color: #88b6d1;
+    color: #88b6d1
+}
+
+.copyright a,
+.hashtag {
+    font-family: inherit;
+    line-height: 26px;
+    color: #000
 }
 
 .main-footer {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, .9);
     position: absolute;
     top: 2645px;
     left: auto;
@@ -548,27 +560,31 @@ a {
     align-items: center;
     justify-content: space-between;
     min-height: 120px;
-    width: 1200px;
+    width: 1200px
 }
 
 .google-map {
     width: 1200px;
     height: 593px;
-    background: #dae2c0 url(../img/google-map.jpg) no-repeat;
+    background: url(../img/google-map.jpg) no-repeat #dae2c0
 }
 
 .hashtag {
-    font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 21px;
-    line-height: 26px;
     padding-bottom: 4px;
-    padding-left: 133px;
-    color: #000000;
+    padding-left: 133px
+}
+
+.copyright a,
+.copyright label,
+.filter li {
+    font-size: 14px;
+    font-weight: 400
 }
 
 .social-links {
-    margin: 4px 13px 11px 0;
+    margin: 4px 13px 11px 0
 }
 
 .social-links ul {
@@ -576,7 +592,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 150px;
+    width: 150px
 }
 
 .social-links li {
@@ -585,166 +601,152 @@ a {
     list-style: none;
     height: 48px;
     width: 46px;
-    background-color: #88b6d1;
+    background-color: #88b6d1
 }
 
 .social-links a {
-    padding: 20px 15px 15px 15px;
-    align-self: center;
+    padding: 20px 15px 15px;
+    align-self: center
 }
 
 .social-links li:hover {
-    background-color: #669ec0;
+    background-color: #669ec0
 }
 
 .social-links li:active {
-    background-color: #5496bd;
+    background-color: #5496bd
 }
 
 .social-links a:active path {
-    fill: #88b6d1;
+    fill: #88b6d1
 }
 
 .copyright {
     display: flex;
     align-items: center;
     margin: 0;
-    padding-right: 103px;
+    padding-right: 103px
 }
 
 .copyright label {
     font-family: inherit;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 26px;
     padding-bottom: 6px;
-    padding-right: 8px;
+    padding-right: 8px
 }
 
 .copyright a {
-    font-family: inherit;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 26px;
-    padding-top: 5px;
-    color: #000000;
+    padding-top: 5px
+}
+
+.filter legend,
+.filter li,
+.show-button {
+    line-height: 21px;
+    font-family: inherit
 }
 
 .copyright a:hover path {
-    fill: #81b3d2;
+    fill: #81b3d2
 }
 
 .copyright a:active path {
-    fill: #bdbbbc;
+    fill: #bdbbbc
 }
 
-
-/*inner.html*/
-
 .inner-relative {
-    position: relative;
+    position: relative
 }
 
 .inner-header-logo {
     position: absolute;
     width: 138px;
     right: 531px;
-    left: 531px;
+    left: 531px
 }
 
 .filter {
-    background-color: #596c81;
-    color: #ffffff;
-    background: #5a5e61 url(../img/filter-background.jpg) no-repeat;
-    background-position: 0px -60px;
+    color: #fff;
+    background: url(../img/filter-background.jpg) 0 -60px no-repeat #5a5e61;
     min-height: 217px;
     width: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
-.filter fieldset {
-    border: none;
-}
-
-.filter ul {
-    padding-left: 0px;
-    margin-bottom: 0;
-}
-
-.filter li {
-    font-family: inherit;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    padding: 0px 0px 20px 40px;
-    margin: -1px;
-    color: #ffffff;
-    list-style: none;
-}
-
-.filter legend {
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 26px 0px 0px 60px;
-    line-height: 21px;
-    color: #ffffff;
-}
-
-.filter-input+label {
-    background: transparent url(../img/checkbox-off.svg) no-repeat;
+.filter-input+label,
+.filter-input:checked+label {
     height: 27px;
     width: 100px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: top
+}
+
+.filter fieldset {
+    border: 0
+}
+
+.filter ul {
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+.filter li {
+    padding: 0 0 20px 23px;
+    margin: -1px;
+    color: #fff;
+    list-style: none
+}
+
+.filter legend {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 26px 0 0 60px;
+    color: #fff
+}
+
+.filter-input+label {
+    background: url(../img/checkbox-off.svg) no-repeat;
     padding-left: 40px;
-    cursor: pointer;
+    cursor: pointer
 }
 
-input[type="checkbox"] {
-    display: none;
+input[type=checkbox] {
+    opacity: 0
 }
 
-.filter-input:disabled {
-    background-color: #6a6a6a;
+.filter-input:disabled+label {
+    opacity: .3
 }
 
 .filter-input:checked+label {
     background: url(../img/checkbox-on.svg) no-repeat;
-    height: 27px;
-    width: 100px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 40px
+}
+
+.filter fieldset:nth-of-type(1) li:first-of-type,
+.filter fieldset:nth-of-type(2) li:first-of-type {
+    padding-top: 5px
 }
 
 .filter fieldset:nth-of-type(1) li {
-    margin-left: 18px;
-}
-
-.filter fieldset:nth-of-type(1) li:first-of-type {
-    padding-top: 5px;
+    margin-left: 18px
 }
 
 .filter fieldset:nth-of-type(2) {
-    margin-right: 265px;
-}
-
-.filter fieldset:nth-of-type(2) li:first-of-type {
-    padding-top: 5px;
+    margin-right: 265px
 }
 
 .filter fieldset:nth-of-type(2) legend {
-    padding-left: 40px;
+    padding-left: 40px
 }
 
 .filter fieldset:nth-of-type(3) {
-    margin-right: 61px;
+    margin-right: 61px
 }
 
 .filter fieldset:nth-of-type(3) legend {
-    padding-left: 2px;
+    padding-left: 2px
 }
 
 .price-value {
@@ -753,38 +755,38 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: space-around;
     width: 314px;
-    border: 2px solid #ffffff;
-    margin-top: 5px;
+    border: 2px solid #fff;
+    margin-top: 5px
 }
 
 .price:first-of-type {
     padding: 1px;
     margin: 2px;
-    border-right: 2px solid #ffffff;
+    border-right: 2px solid #fff;
     width: 52%;
-    text-align: center;
+    text-align: center
 }
 
 .price:last-of-type {
     padding: 5px;
     width: 48%;
-    text-align: center;
+    text-align: center
 }
 
 .range-controls {
     position: relative;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .range-controls .scale {
     height: 2px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, .3)
 }
 
 .range-controls .bar {
     width: 80%;
     height: 2px;
-    background: #ffffff;
+    background: #fff
 }
 
 .range-toggle {
@@ -793,168 +795,165 @@ input[type="checkbox"] {
     width: 4px;
     height: 4px;
     background: #ababab;
-    border: 8px solid #ffffff;
+    border: 8px solid #fff;
     border-radius: 50%;
-    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-    cursor: pointer;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, .2);
+    cursor: pointer
 }
 
 .range-toggle:hover {
-    border: 9px solid #ffffff;
+    border: 9px solid #fff
 }
 
 .range-toggle-max {
-    left: 80%;
+    left: 80%
 }
 
 .show-button {
-    font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
+    color: #fff;
     padding: 6px 34px;
     background-color: transparent;
     text-transform: uppercase;
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     border-radius: 3px;
     margin-top: 31px;
     margin-left: 84px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .show-button:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #fff;
+    color: #000
 }
 
 .sort-by-contain {
     display: flex;
     justify-content: flex-start;
     min-height: 86px;
-    background-color: #fefefe;
+    background-color: #fefefe
 }
 
 .sort-by-contain section {
     display: flex;
     justify-content: flex-start;
-    min-height: 86px;
+    min-height: 86px
+}
+
+.hotel-card,
+.hotel-list-item {
+    min-height: 150px;
+    display: flex
 }
 
 .sort-by-contain .found {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 21px;
     line-height: 26px;
     margin-top: 30px;
     padding-left: 72px;
-    color: #000000;
+    color: #000
+}
+
+.sort-item,
+.title-sort-by {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+    list-style: none;
+    font-family: inherit
 }
 
 .title-sort-by {
-    font-family: inherit;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
     margin: 0;
     padding-top: 39px;
-    padding-left: 48px;
-    list-style: none;
-    color: #000000;
+    padding-left: 48px
 }
 
 .sort-by {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .sort-item {
-    font-family: inherit;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
     padding-top: 10px;
-    padding-right: 33px;
-    list-style: none;
-    color: #000000;
+    padding-right: 33px
 }
 
 .sort-item-active {
-    color: #81b3d2;
-    text-decoration: none;
+    color: #81b3d2
 }
 
 .sort-item:not(.sort-item-active) {
     color: #81b3d2;
     text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: dotted
 }
 
 .sort-item span {
-    color: #b2b2b2;
+    color: #b2b2b2
 }
 
 .sort-item:not(:first-child) span:hover {
-    color: #81b3d2;
+    color: #81b3d2
 }
 
 .sort-item:not(:first-child) span:active {
-    color: #000000;
+    color: #000
 }
 
 .sort-item:active {
-    color: #000000;
-    text-decoration: none;
+    color: #000;
+    text-decoration: none
 }
 
 .sort-rules {
     align-self: center;
     padding-top: 10px;
-    padding-left: 471px;
+    padding-left: 471px
 }
 
 .sort-rules a:last-child {
-    margin-left: 8px;
+    margin-left: 8px
 }
 
 .sort-rules a path {
-    fill: #cacaca;
+    fill: #cacaca
 }
 
 .sort-rules a:first-of-type path {
-    fill: #81b3d2;
+    fill: #81b3d2
 }
 
 .sort-rules a:hover path {
-    fill: #231f20;
+    fill: #231f20
 }
 
 .hotels-list {
-    margin: 0px;
-    padding-left: 0px;
+    margin: 0;
+    padding-left: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .hotels-list li {
-    list-style: none;
+    list-style: none
 }
 
 .hotel-list-item {
     background-color: #fefefe;
-    display: flex;
-    min-height: 150px;
     margin-top: -2px;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5
 }
 
 .hotel-card {
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
-    min-height: 150px;
-    padding: 3px 0px 0px 73px;
-    width: 100%;
+    padding: 3px 0 0 73px;
+    width: 100%
 }
 
 .hotel-info {
@@ -964,45 +963,44 @@ input[type="checkbox"] {
     margin-left: 29px;
     width: 350px;
     margin-top: 27px;
-    min-height: 90px;
+    min-height: 90px
 }
 
 .hotels-list h2 {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 21px;
     padding-right: 115px;
     margin: 0;
-    color: #000000;
+    color: #000
 }
 
 .hotels-list h2:hover {
-    color: #92bdd8;
+    color: #92bdd8
 }
 
 .hotels-list h2:active {
-    color: #c7c7c7;
+    color: #c7c7c7
 }
 
 .hotel-card p {
     font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     margin: 0;
-    flex-grow: 1;
-    color: #333333;
+    color: #333
 }
 
 .hotel-list-item:nth-child(3) {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5
 }
 
 .type-price {
     display: flex;
     align-items: flex-start;
     width: 100%;
-    padding-right: 110px;
+    padding-right: 110px
 }
 
 .hotel-rating {
@@ -1010,80 +1008,76 @@ input[type="checkbox"] {
     flex-direction: column;
     justify-content: space-around;
     padding-top: 9px;
-    padding-right: 70px;
+    padding-right: 70px
 }
 
 .rating-star {
     align-self: flex-end;
     padding-left: 3px;
-    padding-top: 4px;
+    padding-top: 4px
+}
+
+.book,
+.details {
+    font-weight: 700;
+    color: #fff;
+    padding: 2px 0;
+    align-self: flex-end;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center
 }
 
 .details {
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
     background-color: #81b3d2;
-    min-width: 110px;
-    padding: 2px 0;
-    align-self: flex-end;
-    text-align: center;
+    min-width: 110px
 }
 
 .book {
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
     background-color: #766357;
     min-width: 142px;
-    margin-left: 6px;
-    padding: 2px 0;
-    align-self: flex-end;
-    text-align: center;
+    margin-left: 6px
 }
 
 .book:hover {
-    background-color: #604e43;
+    background-color: #604e43
 }
 
 .book:active {
     background-color: #503e33;
-    color: #857871;
+    color: #857871
 }
 
 .details:hover {
-    background-color: #669ec0;
+    background-color: #669ec0
 }
 
 .details:active {
     background-color: #5496bd;
-    color: #88b6d1;
+    color: #88b6d1
 }
 
 .rating {
     font-family: inherit;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #666666;
+    color: #666;
     background-color: #f2f2f2;
     padding: 5px 0;
     width: 110px;
     align-self: center;
-    text-align: center;
+    text-align: center
 }
 
 .inner-main-footer {
-    background-color: rgba(254, 254, 254, 0.9);
+    background-color: rgba(254, 254, 254, .9);
     left: auto;
     right: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 120px;
-    width: 1200px;
+    width: 1200px
 }
