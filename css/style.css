@@ -1,3 +1,12 @@
+.features li,
+.filter li,
+.hotels-list li,
+.services li,
+.site-navigation li,
+.social-links li {
+    list-style: none
+}
+
 body,
 html {
     background-color: #f2f2f2
@@ -34,6 +43,19 @@ body {
     line-height: 26px
 }
 
+.features h3,
+.features p,
+.main-advantage-1 h3,
+.main-advantage-1 p,
+.main-advantage-2 h3,
+.main-advantage-2 p,
+.services h3,
+.services p {
+    font-family: inherit;
+    text-align: center;
+    line-height: 21px
+}
+
 .headline,
 .site-navigation {
     background-color: #fff
@@ -62,7 +84,6 @@ a {
 }
 
 .site-navigation li {
-    list-style: none;
     font-size: 14px;
     width: 20%;
     padding: 15px;
@@ -117,10 +138,7 @@ a {
 
 .main-advantage-1 h3,
 .main-advantage-1 p {
-    color: #fff;
-    text-align: center;
-    font-family: inherit;
-    line-height: 21px
+    color: #fff
 }
 
 .main-advantage-1 {
@@ -168,7 +186,6 @@ a {
 }
 
 .services li {
-    list-style: none;
     align-self: baseline;
     padding-top: 56px
 }
@@ -183,32 +200,23 @@ a {
 }
 
 .services h3 {
-    font-family: inherit;
     font-weight: 700;
     font-size: 21px;
-    line-height: 21px;
     padding-top: 8px;
-    color: #000;
-    text-align: center
+    color: #000
 }
 
 .services p {
-    font-family: inherit;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
     color: #333;
-    text-align: center;
     padding-top: 3px;
     width: 290px
 }
 
 .main-advantage-2 h3,
 .main-advantage-2 p {
-    color: #fff;
-    line-height: 21px;
-    font-family: inherit;
-    text-align: center
+    color: #fff
 }
 
 .main-advantage-2 {
@@ -250,7 +258,6 @@ a {
 }
 
 .features li {
-    list-style: none;
     padding-top: 34px;
     padding-right: 86px
 }
@@ -260,25 +267,19 @@ a {
 }
 
 .features h3 {
-    font-family: inherit;
     font-weight: 700;
     font-size: 21px;
-    line-height: 21px;
     color: #000;
     padding-top: 13px;
-    text-align: center;
     width: 150px;
     margin: 0 auto
 }
 
 .features p {
-    font-family: inherit;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
     color: #333;
     padding-top: 9px;
-    text-align: center;
     width: 270px
 }
 
@@ -356,7 +357,7 @@ a {
 }
 
 .booking-show {
-    display: none
+    display: none;
 }
 
 .booking-data {
@@ -378,8 +379,8 @@ a {
 }
 
 .booking-data p:nth-of-type(4) label {
-    margin-left: 32px;
-    padding-right: 20px;
+    margin-left: 36px;
+    padding-right: 18px;
     padding-bottom: 4px
 }
 
@@ -484,6 +485,14 @@ a {
     font-size: 14px
 }
 
+.booking-data .hotel-search,
+.copyright a,
+.copyright label,
+.hashtag {
+    font-family: inherit;
+    line-height: 26px
+}
+
 .calendar-button {
     padding: 10px 15px;
     margin: 0
@@ -521,12 +530,10 @@ a {
 }
 
 .booking-data .hotel-search {
-    font-family: inherit;
     font-weight: 700;
     min-height: 58px;
     width: 457px;
     font-size: 21px;
-    line-height: 26px;
     text-transform: uppercase;
     margin-top: 20px;
     color: #fff;
@@ -545,8 +552,6 @@ a {
 
 .copyright a,
 .hashtag {
-    font-family: inherit;
-    line-height: 26px;
     color: #000
 }
 
@@ -598,7 +603,6 @@ a {
 .social-links li {
     display: flex;
     justify-content: center;
-    list-style: none;
     height: 48px;
     width: 46px;
     background-color: #88b6d1
@@ -629,8 +633,6 @@ a {
 }
 
 .copyright label {
-    font-family: inherit;
-    line-height: 26px;
     padding-bottom: 6px;
     padding-right: 8px
 }
@@ -694,8 +696,7 @@ a {
 .filter li {
     padding: 0 0 20px 23px;
     margin: -1px;
-    color: #fff;
-    list-style: none
+    color: #fff
 }
 
 .filter legend {
@@ -939,10 +940,6 @@ input[type=checkbox] {
     flex-direction: column
 }
 
-.hotels-list li {
-    list-style: none
-}
-
 .hotel-list-item {
     background-color: #fefefe;
     margin-top: -2px;
@@ -975,6 +972,15 @@ input[type=checkbox] {
     color: #000
 }
 
+.book,
+.details,
+.hotel-card p,
+.rating {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 21px
+}
+
 .hotels-list h2:hover {
     color: #92bdd8
 }
@@ -984,10 +990,7 @@ input[type=checkbox] {
 }
 
 .hotel-card p {
-    font-family: inherit;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
     margin: 0;
     color: #333
 }
@@ -1023,9 +1026,6 @@ input[type=checkbox] {
     color: #fff;
     padding: 2px 0;
     align-self: flex-end;
-    font-family: inherit;
-    font-size: 14px;
-    line-height: 21px;
     text-align: center
 }
 
@@ -1059,10 +1059,7 @@ input[type=checkbox] {
 }
 
 .rating {
-    font-family: inherit;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
     color: #666;
     background-color: #f2f2f2;
     padding: 5px 0;
@@ -1080,4 +1077,8 @@ input[type=checkbox] {
     justify-content: space-between;
     min-height: 120px;
     width: 1200px
+}
+
+.visually-hidden {
+    display: none
 }
