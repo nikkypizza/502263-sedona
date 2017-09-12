@@ -334,7 +334,7 @@ a {
 
 .feedback p:not(.find-hotel) {
     font-family: inherit;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #333333;
@@ -572,6 +572,8 @@ a {
 }
 
 .search-form__label {
+    font-family: inherit;
+    font-weight: bold;
     display: inline-block;
     vertical-align: middle;
     width: 95px;
@@ -792,7 +794,7 @@ a {
     font-weight: 700;
     font-size: 21px;
     padding-bottom: 4px;
-    padding-left: 133px;
+    padding-left: 11%;
 }
 
 .copyright a,
@@ -845,7 +847,7 @@ a {
     align-items: center;
     margin: 0;
     padding-top: 3px;
-    padding-right: 102px;
+    padding-right: 8.6%;
 }
 
 .copyright label {
@@ -887,6 +889,7 @@ a {
     color: #ffffff;
     background: url(../img/filter-background.jpg) 0 -60px no-repeat #5a5e61;
     min-height: 217px;
+    padding: 0 6%;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -897,11 +900,11 @@ a {
     height: 27px;
     width: 100px;
     display: inline-block;
-    vertical-align: top;
 }
 
 .filter fieldset {
     border: 0;
+    margin: 0;
 }
 
 .filter ul {
@@ -910,15 +913,16 @@ a {
 }
 
 .filter li {
-    padding: 0 0 20px 23px;
+    padding: 0 0 20px 0px;
     margin: -1px;
+    margin-left: -26px;
     color: #ffffff;
 }
 
 .filter legend {
     font-weight: 700;
     font-size: 16px;
-    padding: 26px 0 0 60px;
+    padding: 26px 0 0 0;
     color: #ffffff;
 }
 
@@ -938,7 +942,6 @@ input[type=checkbox] {
 
 .filter-input:checked+label {
     background: url(../img/checkbox-on.svg) no-repeat;
-    padding: 0 0 0 40px;
 }
 
 .filter fieldset:nth-of-type(1) li:first-of-type,
@@ -946,20 +949,21 @@ input[type=checkbox] {
     padding-top: 5px;
 }
 
-.filter fieldset:nth-of-type(1) li {
-    margin-left: 18px;
-}
-
 .filter fieldset:nth-of-type(2) {
-    margin-right: 265px;
+    margin-right: 227px;
 }
 
 .filter fieldset:nth-of-type(2) legend {
-    padding-left: 40px;
+    margin-left: -12px;
+}
+
+.filter fieldset:nth-of-type(1) legend {
+    margin-left: -10px;
 }
 
 .filter fieldset:nth-of-type(3) {
-    margin-right: 61px;
+    margin-right: 0px;
+    padding: 6px 0 0 6px;
 }
 
 .filter fieldset:nth-of-type(3) legend {
@@ -1048,6 +1052,7 @@ input[type=checkbox] {
 .sort-by-contain {
     display: flex;
     justify-content: flex-start;
+    padding: 0 6%;
     min-height: 86px;
     background-color: #fefefe;
 }
@@ -1070,7 +1075,6 @@ input[type=checkbox] {
     font-size: 21px;
     line-height: 26px;
     margin-top: 30px;
-    padding-left: 72px;
     color: #000000;
 }
 
@@ -1086,8 +1090,8 @@ input[type=checkbox] {
 
 .title-sort-by {
     margin: 0;
-    padding-top: 39px;
-    padding-left: 48px;
+    padding-top: 36px;
+    padding-left: 46px;
 }
 
 .sort-by {
@@ -1129,8 +1133,8 @@ input[type=checkbox] {
 
 .sort-rules {
     align-self: center;
-    padding-top: 10px;
-    padding-left: 471px;
+    padding-top: 5px;
+    padding-left: 468px;
 }
 
 .sort-rules a:last-child {
@@ -1160,12 +1164,13 @@ input[type=checkbox] {
     background-color: #fefefe;
     margin-top: -2px;
     border-top: 1px solid #e5e5e5;
+    padding: 0 6%;
 }
 
 .hotel-card {
     flex-wrap: wrap;
     align-items: center;
-    padding: 3px 0 0 73px;
+    padding: 3px 0 0 0%;
     width: 100%;
 }
 
@@ -1184,6 +1189,7 @@ input[type=checkbox] {
     font-family: inherit;
     font-weight: 700;
     font-size: 21px;
+    padding-left: 3px;
     margin: 0;
     color: #000000;
 }
@@ -1227,7 +1233,6 @@ input[type=checkbox] {
     flex-direction: column;
     justify-content: space-around;
     padding-top: 9px;
-    padding-right: 70px;
 }
 
 .rating-star {
