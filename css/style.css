@@ -572,6 +572,7 @@ a {
 }
 
 .search-form__label {
+    white-space: nowrap;
     font-family: inherit;
     font-weight: bold;
     display: inline-block;
@@ -1050,6 +1051,7 @@ input[type=checkbox] {
 }
 
 .sort-by-contain {
+    white-space: nowrap;
     display: flex;
     justify-content: flex-start;
     padding: 0 6%;
